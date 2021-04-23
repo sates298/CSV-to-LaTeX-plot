@@ -115,7 +115,7 @@ def get_rows_info(problems):
         truncated = all_ - 12
         print(f'\033[91m\033[1mToo many problems!!\033[0m This script support up to 12 problems. {truncated} problems were ignored', file=sys.stderr)
         # sys.exit(1)
-    all_ = 12
+        all_ = 12
     row_sizes = {
         1: 1, 2: 1, 3: 1,
         4: 1, 5: 1, 6: 2,
@@ -144,7 +144,7 @@ def generate_figure(curr_df, title, label):
         for p in problems[i*row_len:(i+1)*row_len]:
             subs += generate_subfigure(width, p, curr_df, legend=legend)
             legend=False
-        subs += '\n'
+        subs += '\n' if i+1 < rows else ''
     label_s = '\\label{' + label + '}' if label else ''
     return template.substitute(subfigures=subs, title=title, label=label_s)
 
