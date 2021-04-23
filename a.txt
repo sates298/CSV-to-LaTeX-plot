@@ -1,0 +1,461 @@
+
+\begin{figure}[H]
+ 
+    \begin{subfigure}[b]{0.24\linewidth}
+        \resizebox{\linewidth}{!}{%
+            \tikzset{every mark/.append style={scale=2.5}}
+            \begin{tikzpicture}
+            \begin{axis}[% 
+            legend entries={RS,RS-1,RS-5,RS-auto,RS-auto1},
+            legend columns=-1,
+            legend to name=named,
+            xtick={1,2,3,4,5},
+            xticklabels={5,10,15,20,50},
+            xmin=0,
+            xmax=6,
+            ymin=-0.0441878393960667,
+            ymax=1.0288186698975772,
+            xlabel=\textbf{Liczba genów},
+            grid,
+            grid style=dashed,
+            ticklabel style={scale=1.5},
+            label style={scale=1.5},
+            legend style={font=\fontsize{8}{0}\selectfont}
+            ]
+            
+            \addplot[
+                color=red,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.4889851054100785)(2, 0.8130812292021863)(3, 0.7089740894848886)(4, 0.3402602566511403)(5, 0.1418614794727436)
+                };
+        
+            \addplot[
+                color=green,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.123708773340706)(2, 0.5530746167283279)(3, 0.8725552283845627)(4, 0.9800456467478662)(5, 0.0473277174716293)
+                };
+        
+            \addplot[
+                color=blue,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.2857039695562267)(2, 0.8355861147853516)(3, 0.5513333613371416)(4, 0.3940501225528261)(5, 0.9043807822108276)
+                };
+        
+            \addplot[
+                color=cyan,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.869054658660586)(2, 0.4622822841171718)(3, 0.9781698838248052)(4, 0.9675279258925036)(5, 0.3065229839165851)
+                };
+        
+            \addplot[
+                color=magenta,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.2798532726475515)(2, 0.0045851837536444)(3, 0.2021566396298606)(4, 0.3512267193118487)(5, 0.3087422473808875)
+                };
+        
+            \end{axis}
+            \end{tikzpicture}
+        }
+        \caption{Sphere}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\linewidth}
+        \resizebox{\linewidth}{!}{%
+            \tikzset{every mark/.append style={scale=2.5}}
+            \begin{tikzpicture}
+            \begin{axis}[% 
+            xtick={1,2,3,4,5},
+            xticklabels={5,10,15,20,50},
+            xmin=0,
+            xmax=6,
+            ymin=0.010138033646264408,
+            ymax=0.9359990280497237,
+            xlabel=\textbf{Liczba genów},
+            grid,
+            grid style=dashed,
+            ticklabel style={scale=1.5},
+            label style={scale=1.5},
+            legend style={font=\fontsize{8}{0}\selectfont}
+            ]
+            
+            \addplot[
+                color=red,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.3760523602065424)(2, 0.3756510014952567)(3, 0.1515053325644295)(4, 0.3105794647953152)(5, 0.3367720115875213)
+                };
+        
+            \addplot[
+                color=green,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.8902769114777711)(2, 0.0522226243009671)(3, 0.2124277124034306)(4, 0.3029069446339364)(5, 0.8418201974546212)
+                };
+        
+            \addplot[
+                color=blue,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.7016383511442115)(2, 0.3233328438538195)(3, 0.2772645317751593)(4, 0.6484421505355569)(5, 0.3615910998583858)
+                };
+        
+            \addplot[
+                color=cyan,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.1780246152223296)(2, 0.8147426960922902)(3, 0.893914437395021)(4, 0.4098372293623165)(5, 0.7778989432166015)
+                };
+        
+            \addplot[
+                color=magenta,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.669545409125238)(2, 0.2697755977380368)(3, 0.3416315111959813)(4, 0.7308486782273225)(5, 0.5479396373262769)
+                };
+        
+            \end{axis}
+            \end{tikzpicture}
+        }
+        \caption{step2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\linewidth}
+        \resizebox{\linewidth}{!}{%
+            \tikzset{every mark/.append style={scale=2.5}}
+            \begin{tikzpicture}
+            \begin{axis}[% 
+            xtick={1,2,3,4,5},
+            xticklabels={5,10,15,20,50},
+            xmin=0,
+            xmax=6,
+            ymin=-0.040120489436334485,
+            ymax=0.9807564051554126,
+            xlabel=\textbf{Liczba genów},
+            grid,
+            grid style=dashed,
+            ticklabel style={scale=1.5},
+            label style={scale=1.5},
+            legend style={font=\fontsize{8}{0}\selectfont}
+            ]
+            
+            \addplot[
+                color=red,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.8699350059311685)(2, 0.0062830057723813)(3, 0.7286248400864705)(4, 0.6715087638419607)(5, 0.215403514203026)
+                };
+        
+            \addplot[
+                color=green,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.6848503538303881)(2, 0.2345267103542289)(3, 0.5821681789350216)(4, 0.8365892811707994)(5, 0.466458910833337)
+                };
+        
+            \addplot[
+                color=blue,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.907028635500232)(2, 0.3110845938062927)(3, 0.3726990041474246)(4, 0.3305205950313584)(5, 0.4750441480865245)
+                };
+        
+            \addplot[
+                color=cyan,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.4034547674681847)(2, 0.2522864277264597)(3, 0.38539389414387)(4, 0.352903646741777)(5, 0.9343529099466968)
+                };
+        
+            \addplot[
+                color=magenta,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.1287340113765446)(2, 0.1768372481857631)(3, 0.857685736432959)(4, 0.0230292686871135)(5, 0.8163787402626566)
+                };
+        
+            \end{axis}
+            \end{tikzpicture}
+        }
+        \caption{rastrigin}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\linewidth}
+        \resizebox{\linewidth}{!}{%
+            \tikzset{every mark/.append style={scale=2.5}}
+            \begin{tikzpicture}
+            \begin{axis}[% 
+            xtick={1,2,3,4,5},
+            xticklabels={5,10,15,20,50},
+            xmin=0,
+            xmax=6,
+            ymin=-0.013716242049221852,
+            ymax=1.0269454802058198,
+            xlabel=\textbf{Liczba genów},
+            grid,
+            grid style=dashed,
+            ticklabel style={scale=1.5},
+            label style={scale=1.5},
+            legend style={font=\fontsize{8}{0}\selectfont}
+            ]
+            
+            \addplot[
+                color=red,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.6800508464348285)(2, 0.5129557012975261)(3, 0.7879473285647167)(4, 0.1324361403328474)(5, 0.1758180868248482)
+                };
+        
+            \addplot[
+                color=green,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.9143141254384356)(2, 0.9796426746487724)(3, 0.3829099074160761)(4, 0.0335865635078255)(5, 0.2104124647608807)
+                };
+        
+            \addplot[
+                color=blue,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.411469798650901)(2, 0.6089230120845517)(3, 0.6080088943905072)(4, 0.9642533711204476)(5, 0.4078841792711996)
+                };
+        
+            \addplot[
+                color=cyan,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.3954265390646065)(2, 0.9484577063608328)(3, 0.3494528682680001)(4, 0.0571389200179581)(5, 0.7212672262982561)
+                };
+        
+            \addplot[
+                color=magenta,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.259299056654475)(2, 0.4544760861892571)(3, 0.3581758325952683)(4, 0.1644001751375203)(5, 0.7970895444827879)
+                };
+        
+            \end{axis}
+            \end{tikzpicture}
+        }
+        \caption{ackley}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.24\linewidth}
+        \resizebox{\linewidth}{!}{%
+            \tikzset{every mark/.append style={scale=2.5}}
+            \begin{tikzpicture}
+            \begin{axis}[% 
+            xtick={1,2,3,4,5},
+            xticklabels={5,10,15,20,50},
+            xmin=0,
+            xmax=6,
+            ymin=-0.017252145806250792,
+            ymax=0.8383785083721436,
+            xlabel=\textbf{Liczba genów},
+            grid,
+            grid style=dashed,
+            ticklabel style={scale=1.5},
+            label style={scale=1.5},
+            legend style={font=\fontsize{8}{0}\selectfont}
+            ]
+            
+            \addplot[
+                color=red,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.681602254783024)(2, 0.4733487636728362)(3, 0.4714766403327012)(4, 0.3076236413528871)(5, 0.0216401566564035)
+                };
+        
+            \addplot[
+                color=green,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.5786939518478196)(2, 0.0611948578717105)(3, 0.1744743098999488)(4, 0.6879061431420839)(5, 0.1069239893575874)
+                };
+        
+            \addplot[
+                color=blue,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.5460664799106301)(2, 0.3451907717283594)(3, 0.3521147371025328)(4, 0.2507248451896883)(5, 0.4564165325769804)
+                };
+        
+            \addplot[
+                color=cyan,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.3242125927105632)(2, 0.7994862059094893)(3, 0.6613192180170154)(4, 0.184402821096868)(5, 0.1264968192501581)
+                };
+        
+            \addplot[
+                color=magenta,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.2372508636247891)(2, 0.3539378105620082)(3, 0.5645866778949312)(4, 0.168278092268824)(5, 0.741970764574979)
+                };
+        
+            \end{axis}
+            \end{tikzpicture}
+        }
+        \caption{ellipsoid}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\linewidth}
+        \resizebox{\linewidth}{!}{%
+            \tikzset{every mark/.append style={scale=2.5}}
+            \begin{tikzpicture}
+            \begin{axis}[% 
+            xtick={1,2,3,4,5},
+            xticklabels={5,10,15,20,50},
+            xmin=0,
+            xmax=6,
+            ymin=-0.041291624474498856,
+            ymax=1.0358424036167992,
+            xlabel=\textbf{Liczba genów},
+            grid,
+            grid style=dashed,
+            ticklabel style={scale=1.5},
+            label style={scale=1.5},
+            legend style={font=\fontsize{8}{0}\selectfont}
+            ]
+            
+            \addplot[
+                color=red,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.513712320533804)(2, 0.12089964932821)(3, 0.2869221554058814)(4, 0.3750038522454542)(5, 0.1604345225121051)
+                };
+        
+            \addplot[
+                color=green,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.19682383272483)(2, 0.2789398734869367)(3, 0.2590639060015007)(4, 0.4138877449771192)(5, 0.0076690131660147)
+                };
+        
+            \addplot[
+                color=blue,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.6106154643127498)(2, 0.9412082856433472)(3, 0.089134543954869)(4, 0.5541555360824293)(5, 0.8473575046044067)
+                };
+        
+            \addplot[
+                color=cyan,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.4898146042298158)(2, 0.0715106385311322)(3, 0.1284272096528349)(4, 0.9348388088523422)(5, 0.2038218747090828)
+                };
+        
+            \addplot[
+                color=magenta,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.4532096699557203)(2, 0.9868817659762856)(3, 0.5912127305314906)(4, 0.9178631914260108)(5, 0.2191720326221254)
+                };
+        
+            \end{axis}
+            \end{tikzpicture}
+        }
+        \caption{onemax}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\linewidth}
+        \resizebox{\linewidth}{!}{%
+            \tikzset{every mark/.append style={scale=2.5}}
+            \begin{tikzpicture}
+            \begin{axis}[% 
+            xtick={1,2,3,4,5},
+            xticklabels={5,10,15,20,50},
+            xmin=0,
+            xmax=6,
+            ymin=-0.04094384028841306,
+            ymax=1.0302584576383513,
+            xlabel=\textbf{Liczba genów},
+            grid,
+            grid style=dashed,
+            ticklabel style={scale=1.5},
+            label style={scale=1.5},
+            legend style={font=\fontsize{8}{0}\selectfont}
+            ]
+            
+            \addplot[
+                color=red,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.1021660219325546)(2, 0.7207831833839199)(3, 0.7825483513260547)(4, 0.0494727525870789)(5, 0.0077471732537126)
+                };
+        
+            \addplot[
+                color=green,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.2798310849568879)(2, 0.4448368075171834)(3, 0.3111215244870374)(4, 0.3211073056773441)(5, 0.2868053866682487)
+                };
+        
+            \addplot[
+                color=blue,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.1591667922605711)(2, 0.84653384357459)(3, 0.710302533632051)(4, 0.9279635664155708)(5, 0.5108360615239064)
+                };
+        
+            \addplot[
+                color=cyan,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.2884762095813248)(2, 0.0255902071439607)(3, 0.4508657720579879)(4, 0.7318104405557044)(5, 0.0899225883329289)
+                };
+        
+            \addplot[
+                color=magenta,
+                mark=*,
+                ]
+                coordinates {
+                    (1, 0.0634799741314422)(2, 0.0327088979372118)(3, 0.9072920141951945)(4, 0.6940401317489159)(5, 0.9815674440962258)
+                };
+        
+            \end{axis}
+            \end{tikzpicture}
+        }
+        \caption{order5}
+    \end{subfigure}
+
+
+    \ref{named}
+    \caption{testowe}
+    \label{fig:testowy_lab}
+\end{figure}
